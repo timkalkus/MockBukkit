@@ -38,7 +38,7 @@ public final class AudioExperience
 	public AudioExperience(@NotNull Sound sound, @NotNull SoundCategory category, @NotNull Location loc, float volume,
 			float pitch)
 	{
-		this(sound.getKey().getKey(), category, loc, volume, pitch);
+		this(sound.name(), category, loc, volume, pitch);
 	}
 
 	/**

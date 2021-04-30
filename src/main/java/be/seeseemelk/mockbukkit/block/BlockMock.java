@@ -420,6 +420,12 @@ public class BlockMock implements Block
 		throw new UnimplementedOperationException();
 	}
 
+	@Override
+	public boolean isPreferredTool(@NotNull ItemStack tool) {
+		// TODO Auto-generated method stub
+		throw new UnimplementedOperationException();
+	}
+
 	/**
 	 * This method sets the current {@link BlockState} to the provided {@link BlockStateMock}.
 	 * <strong>Do not call this method directly, use {@link BlockState#update()} instead.</strong>

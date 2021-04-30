@@ -5,8 +5,7 @@ import java.util.concurrent.CancellationException;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.scheduler.BukkitTask;
 
-public class ScheduledTask implements BukkitTask
-{
+public class ScheduledTask implements BukkitTask {
 	private int id;
 	private Plugin plugin;
 	private boolean isSync;

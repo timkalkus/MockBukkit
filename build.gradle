@@ -9,6 +9,8 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
+    mavenLocal()
+
     jcenter()
 
     maven {
@@ -67,7 +69,7 @@ publishing {
         mockBukkit(MavenPublication) {
             artifactId = "MockBukkit-v${gradle.ext.apiVersion}"
             from components.java
-            
+
             artifact sourcesJar
             artifact javadocJar
             pom {

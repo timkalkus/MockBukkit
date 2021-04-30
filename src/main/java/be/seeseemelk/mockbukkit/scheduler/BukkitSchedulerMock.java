@@ -1,5 +1,6 @@
 package be.seeseemelk.mockbukkit.scheduler;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.Callable;
@@ -292,7 +293,8 @@ public class BukkitSchedulerMock implements BukkitScheduler
 	public @NotNull List<BukkitTask> getPendingTasks()
 	{
 		// TODO Auto-generated method stub
-		throw new UnimplementedOperationException();
+		//throw new UnimplementedOperationException();
+		return new ArrayList<BukkitTask>(tasks);
 	}
 
 	@Override

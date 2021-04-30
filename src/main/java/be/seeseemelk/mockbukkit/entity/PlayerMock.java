@@ -1141,7 +1141,7 @@ public class PlayerMock extends LivingEntityMock implements Player, SoundReceive
 	public void updateInventory()
 	{
 		// TODO Auto-generated method stub
-		throw new UnimplementedOperationException();
+		// throw new UnimplementedOperationException();
 	}
 
 	@Override

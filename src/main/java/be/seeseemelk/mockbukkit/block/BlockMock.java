@@ -444,4 +444,11 @@ public class BlockMock implements Block
 		// TODO Auto-generated method stub
 		throw new UnimplementedOperationException();
 	}
+
+	@Override
+	public boolean isPreferredTool(ItemStack tool)
+	{
+		// TODO Auto-generated method stub
+		throw new UnimplementedOperationException();
+	}
 }
